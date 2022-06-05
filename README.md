@@ -8,3 +8,5 @@ The quarter starts *May 2nd* and will end in *late August*.
 # Unit 1
 
 Some of the basics. What is a **programming paradigm**, definition of **structured programming**, **control structures** and the like.
+
+Now I can access my repo and make changes from Windows, Mac and Linux. Yayyy!
