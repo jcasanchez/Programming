@@ -63,8 +63,7 @@ void serie_de_potencia(int n) {
 
      // calculamos nCr
 
-        cout << (fact_n) /
-                 (fact_n_menos_k * fact_k) << " ";
+        cout << (fact_n) / (fact_n_menos_k * fact_k) << " ";
     }
 }
  
