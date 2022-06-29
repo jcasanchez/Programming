@@ -1,4 +1,9 @@
 // Class June 21th, 2022
+// Modification to ask for user input
+// to print the selected book
+
+// Juan Carlos Avila Sanchez
+// Data 2B
 
 #include<stdio.h>
 #include<iostream>
