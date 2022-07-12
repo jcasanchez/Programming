@@ -1,12 +1,12 @@
 #include<iostream>
-/* 1 A
-   2 
-   3 s
-   4 t
-   5 r
-   6 i
-   7 n
-   8 g
+/* 0 A
+   1 
+   2 s
+   3 t
+   4 r
+   5 i
+   6 n
+   7 g
 */   
    
 using namespace std;

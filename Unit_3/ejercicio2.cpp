@@ -53,8 +53,12 @@ int main(){
     
 	bookTitle = libros[item - 1];
 	string *bookAuthor = bookTitle + 1;
-	cout << "Your book is " + *(bookTitle) + " by " + *(bookAuthor) << endl;
+	//cout << "Your book is " + *(bookTitle) + " by " + *(bookAuthor) << endl;
     
+    for(int i=0; i<= item;i++){
+    	cout << libros[2][1];	
+    	//cout << libros[i][1];
+	}
 	
 
 
