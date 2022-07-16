@@ -26,8 +26,6 @@ void createFile(){
 		cout << "\t    File sucessfully created!\n" << endl;
 		
 	}
-	
-	//new_file << "Learning file handling";
 	new_file.close();
 }
 
@@ -54,8 +52,6 @@ void userInput(){
 	// Our variable will point to a stream that we later
 	// define to be a text file read from disk
 	FILE* mydatabase;
-	//int i;
-	//, numero=0;
 	
 	// Create a variable which points to our database file.
 	// wt stands for Write in Text mode. The contents are destroyed.
@@ -74,18 +70,14 @@ void userInput(){
 			
 			puts("\nPublication date: ");
 			scanf("%d", &libros[i].year);
-			//getchar();
 			fprintf(mydatabase, "%d \n", libros[i].year);
 			
 			puts("\nAuthor: ");
 			gets(libros[i].author);	
 			fprintf(mydatabase, "%s \n", libros[i].author);	
 		}
-					
 	}
-			//fclose(mydatabase);
-
-
+			
 void printToScreen(){
 int item;
 	string *bookTitle;
@@ -109,10 +101,5 @@ int main(){
 	createFile();
     userInput();
     printToScreen();
-    
-    
-    
-	
-
 }
 	
