@@ -2,3 +2,6 @@
 Unit_1/array.cpp
 *.exe
 Unit_1/pascal
+*.vsidx
+*.lock
+Unit_4\Punto de Venta\.vs
