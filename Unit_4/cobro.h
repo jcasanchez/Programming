@@ -26,7 +26,7 @@ else{
 		
 		
   		while(~codigoDeProducto == 0){
- 		    subtotal = subtotal + revisarPrecio();
+ 		    subtotal = subtotal + revisarprecio();
     		contador ++;
 			
 	 		cin >> codigoDeProducto;

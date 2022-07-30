@@ -45,7 +45,7 @@ int main(int argc, char** argv) {
 	revisarprecio();
 	 
 	 
- 	//float totalAPagar = subtotal * 1.16;
+ 	float totalAPagar = subtotal * 1.16;
  		
 		cout << "\n\n\nEl subtotal es: $" << subtotal << endl
 			 << "Usted ahorro: $" << descuento << endl
