@@ -1,25 +1,25 @@
 #include <fstream>
 #include <iostream>
+
 using namespace std;
  
-int imprimirTicket(float sub, float desc, float tot) {
+int imprimirticket(float sub, float desc, float tot) {
+
+  // Variables para guardar los datos del cliente
   char nombre[100];
   char rfc[100];
-
- 
-  ofstream outfile;
-  outfile.open("ticket.txt");
 
   cout << "\nImprimiendo su nota de compra" << endl;
   cout << "\nIngrese su nombre: "; 
   cin >> nombre;
-  
- 
   cout << "\nIngrese su RFC: "; 
   cin >> rfc;
   cin.ignore();
   
- 
+  // abrimos el archivo para escribir el ticket
+  ofstream outfile;
+  outfile.open("ticket.txt");
+
   outfile << "***************************************************" << endl;
   outfile << "*              Ferreteria El Clavito              *" << endl;
   outfile << "*                                                 *" << endl;
@@ -36,12 +36,7 @@ int imprimirTicket(float sub, float desc, float tot) {
   outfile << "RFC: " << rfc << endl;
   cout << "su ticket ha sido guardado, vuelva pronto" << endl;
   
-  outfile << nombre << endl;
-
-   // close the opened file.
   outfile.close();
-
-  
 
   return 0;
 }

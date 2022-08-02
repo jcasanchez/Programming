@@ -3,13 +3,11 @@
 *                                                 *
 ***************************************************
 *                                                 *
-*                Nota de compra                    
+*                  Cotizacion                     *
 ***************************************************
 ___________________________________________________
-El subtotal de su compra es: 71.93
-Usted tiene 0% de descuento.
-Total a pagar: $83.4388
-Se expide la presente nota a: jasndasd
-En Merida, Yucatan, sucursal Centro
-RFC: 1234s
-jasndasd
+
+Usted desea 100 piezas, c/u $1
+El descuento aplicable es de: 15%
+El subtotal es: $85
+El precio final es $98.6 IVA incluido

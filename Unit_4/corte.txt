@@ -3,13 +3,10 @@
 *                                                 *
 ***************************************************
 *                                                 *
-*                Nota de compra                    
+*                Corte de Caja                     
 ***************************************************
 ___________________________________________________
-El subtotal de su compra es: 71.93
-Usted tiene 0% de descuento.
-Total a pagar: $83.4388
-Se expide la presente nota a: jasndasd
-En Merida, Yucatan, sucursal Centro
-RFC: 1234s
-jasndasd
+Numero de transacciones: 1
+Total de ingresos: $116
+IVA a declarar: $16
+Total sin IVA: $100
